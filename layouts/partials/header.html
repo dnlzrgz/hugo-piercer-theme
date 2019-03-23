@@ -1,0 +1,19 @@
+<header class="header">
+
+    <!-- Title -->
+    <div class="header__title">
+        <a href="{{ $.Site.BaseURL }}" class="header__title__link" alt="{{ $.Site.BaseURL }}">
+            {{ if $.Site.Params.logo }}
+            <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.logo }}" class="header__title__link--logo"
+                alt="{{ $.Site.Title }}}">
+            {{ else }}
+            {{ $.Site.title }}
+            {{ end }}
+        </a>
+    </div>
+
+    <!-- Menu -->
+    <div class="header__menu">
+    </div>
+
+</header>
