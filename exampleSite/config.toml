@@ -1,0 +1,100 @@
+baseURL = "/"
+title = "Piercer"
+author = "Daniel Zaragoza (Danielkvist)"
+googleAnalytics = ""
+defaultContentLanguage = "en"
+language = "en-US"
+
+theme = "hugo-piercer-theme"
+themesDir = "../.."
+
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = false
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = false
+        simple = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = true
+        simple = false
+    [privacy.vimeo]
+        disable = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
+
+[params]
+    description = ""
+    favicon = ""
+    logo = ""
+
+[params.palette]
+    text = "#fdfdfd"
+    background = "#282a36"
+    accent = "#44475a"
+    foreground = "#f8f8f2"
+    separator = "#6272a4"
+    cyan = "#8be9fd"
+    green = "#50fa7b"
+    orange = "#ffb86c"
+    pink = "#ff79c6"
+    purple = "#bd93f9"
+    red = "#ff5555"
+    yellow = "#f1fa8c"
+
+[params.cta]
+    show = true
+    cta = ""
+    link = ""
+
+[params.fa]
+    version = ""
+    integrity = ""
+
+[params.form]
+    netlify = false
+    action = ""
+    method = "POST"
+    inputNameName = ""
+    inputNameLabel = ""
+    inputNamePlaceholder = ""
+    inputEmailName = ""
+    inputEmailLabel = ""
+    inputEmailPlaceholder = ""
+    inputMsgName = ""
+    inputMsgLabel = ""
+    inputMsgLength = 750
+    inputSubmitValue = ""
+
+[params.contact]
+    email = ""
+    phone = ""
+    skype = ""
+    address = ""
+
+[params.social]
+    twitter = ""
+    facebook = ""
+    github = ""
+    gitlab = ""
+    codepen = ""
+    instagram = ""
+    pinterest = ""
+    youtube = ""
+    linkedin = ""
+    weibo = ""
+    mastodon = ""
+    tumblr = ""
+    flickr = ""
+    "500px" = ""
+
+[params.copy]
+    copy = ""
+
+[params.agreements]
+    message = ""
