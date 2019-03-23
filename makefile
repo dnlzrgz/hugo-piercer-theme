@@ -1,9 +1,9 @@
-IMAGE_NAME=
-APP_NAME=
+IMAGE_NAME=piercer
+APP_NAME=piercer
 IMAGE_PORT=80
 HOST_PORT=80
 HUGO_SITE=exampleSite
-HUGO_BASE_URL=
+HUGO_BASE_URL=https://danielkvist.github.io/piercer/
 
 hugo-build:
 	cd ./$(HUGO_SITE) && hugo
