@@ -1,0 +1,11 @@
+<div class="hero">
+
+    <!-- Content -->
+    {{ .Content }}
+
+    <!-- CTA -->
+    {{ if $.Site.Params.cta.show }}
+    {{ partial "cta.html" . }}
+    {{ end }}
+
+</div>
