@@ -1,7 +1,7 @@
-const header = document.querySelector("header")
+const header = document.querySelector("header");
 
 function paddingHeader() {
     document.body.style.paddingTop = `${header.offsetHeight}px`;
 }
 
-window.addEventListener("load", paddingHeader)
+window.addEventListener("load", paddingHeader);
