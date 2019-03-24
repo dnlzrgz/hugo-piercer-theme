@@ -16,21 +16,6 @@
 	{{ template "_internal/twitter_cards.html" . }}
 	{{ template "_internal/opengraph.html" . }}
 
-	<!-- Colot Palette -->
-	<style>
-		:root {
-			--text: {{ if $.Site.Params.palette.text }} {{ $.Site.Params.palette.text }} {{ else }} #fdfdfd {{ end }};
-			--background: {{ if $.Site.Params.palette.background }} {{ $.Site.Params.palette.background }} {{ else }} #282a36 {{ end }};
-			--accent: {{ if $.Site.Params.palette.accent }} {{ $.Site.Params.palette.accent }} {{ else }} #44475a {{ end }};
-			--foreground: {{ if $.Site.Params.palette.foreground }} {{ $.Site.Params.palette.foreground }} {{ else }} #f8f8f2 {{ end }};
-			--separator: {{ if $.Site.Params.palette.separator }} {{ $.Site.Params.palette.separator }} {{ else }} #6272a4 {{ end }};
-			--cyan: {{ if $.Site.Params.palette.cyan }} {{ $.Site.Params.palette.cyan }} {{ else }} #8be9fd {{ end }};
-			--green: {{ if $.Site.Params.palette.green }} {{ $.Site.Params.palette.green }} {{ else }} #500fa7b {{ end }};
-			--orange: {{ if $.Site.Params.palette.orange }} {{ $.Site.Params.palette.orange }} {{ else }} #ffb86c {{ end }};
-			--pink: {{ if $.Site.Params.palette.pink }} {{ $.Site.Params.palette.pink }} {{ else }} #ff79c6 {{ end }};
-			--purple: {{ if $.Site.Params.palette.purple }} {{ $.Site.Params.palette.purple }} {{ else }} #bd93f9 {{ end }};
-			--red: {{ if $.Site.Params.palette.red }} {{ $.Site.Params.palette.red }} {{ else }} #ff5555 {{ end }};
-			--yellow: {{ if $.Site.Params.palette.yellow }} {{ $.Site.Params.palette.yellow }} {{ else }} #f1fa8c {{ end }};
-		}
-	</style>
+	<!-- CSS Styles -->
+	{{ partial "styles.html" . }}
 </head>
