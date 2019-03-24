@@ -1,0 +1,5 @@
+{{ $header := resources.Get "js/header.js" }}
+{{ $bundle := slice $header | resources.Concat "js/bundle.js" }}
+{{ $js := $bundle | resources.Minify | resources.Fingerprint }}
+
+<script src="{{ $js.Permalink }}"></script>
