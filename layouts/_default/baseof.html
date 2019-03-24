@@ -3,7 +3,9 @@
 {{- partial "head.html" . -}}
 
 <body>
+	{{ if $.Site.Params.header.show }}
 	{{- partial "header.html" . -}}
+	{{ end }}
 	<main class="main">
 		{{- block "main" . }}{{- end }}
 	</main>

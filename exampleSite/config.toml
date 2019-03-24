@@ -55,10 +55,13 @@ themesDir = "../.."
     h2 = "2.441em"
     h1 = "3.052em"
 
+[params.header]
+    show = true
+
 [params.cta]
     show = true
-    cta = ""
-    link = ""
+    message = "Get It!"
+    link = "#"
 
 [params.fa]
     version = ""
