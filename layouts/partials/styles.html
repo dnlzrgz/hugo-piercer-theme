@@ -5,6 +5,7 @@
 
 <style>
 	:root {
+		/* Color Palette */
 		--text: {{ if $.Site.Params.palette.text }} {{ $.Site.Params.palette.text }} {{ else }} #fdfdfd {{ end }};
 		--background: {{ if $.Site.Params.palette.background }} {{ $.Site.Params.palette.background }} {{ else }} #282a36 {{ end }};
 		--accent: {{ if $.Site.Params.palette.accent }} {{ $.Site.Params.palette.accent }} {{ else }} #44475a {{ end }};
@@ -17,6 +18,14 @@
 		--purple: {{ if $.Site.Params.palette.purple }} {{ $.Site.Params.palette.purple }} {{ else }} #bd93f9 {{ end }};
 		--red: {{ if $.Site.Params.palette.red }} {{ $.Site.Params.palette.red }} {{ else }} #ff5555 {{ end }};
 		--yellow: {{ if $.Site.Params.palette.yellow }} {{ $.Site.Params.palette.yellow }} {{ else }} #f1fa8c {{ end }};
+
+		/* Font Sizes */
+		--base: {{ if $.Site.Params.fontsizes.base }} {{ $.Site.Params.fontsizes.base }} {{ else }} 1em {{ end }};
+		--p: {{ if $.Site.Params.fontsizes.text }} {{ $.Site.Params.fontsizes.text }} {{ else }} 1.25em {{ end }};
+		--h4: {{ if $.Site.Params.fontsizes.h4 }} {{ $.Site.Params.fontsizes.h4 }} {{ else }} 1.563em {{ end }};
+		--h3: {{ if $.Site.Params.fontsizes.h3 }} {{ $.Site.Params.fontsizes.h3 }} {{ else }} 1.953em {{ end }};
+		--h2: {{ if $.Site.Params.fontsizes.h2 }} {{ $.Site.Params.fontsizes.h2 }} {{ else }} 2.2441em {{ end }};
+		--h1: {{ if $.Site.Params.fontsizes.h1 }} {{ $.Site.Params.fontsizes.h1 }} {{ else }} 3.052em {{ end }};
 	}
 </style>
 

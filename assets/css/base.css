@@ -7,13 +7,9 @@ a:hover {
 }
 
 body {
-    color: var(--text);
     background-color: var(--background);
-}
-
-figcaption {
-    font-size: 0.9rem;
-    text-align: center;
+    color: var(--base);
+    font-size: var(--base);
 }
 
 footer {
@@ -22,7 +18,8 @@ footer {
 
 header {
     background-color: var(--accent);
-    font-size: 1.15rem;
+    box-shadow: 0 1px 2.25px var(--pink);
+    font-size: var(--p);
     padding: 1.15rem 1.75rem;
     position: fixed;
     top: 0;

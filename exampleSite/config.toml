@@ -47,6 +47,14 @@ themesDir = "../.."
     red = "#ff5555"
     yellow = "#f1fa8c"
 
+[params.fontsizes]
+    base = "1em"
+    p = "1.25em"
+    h4 = "1.563em"
+    h3 = "1.953em"
+    h2 = "2.441em"
+    h1 = "3.052em"
+
 [params.cta]
     show = true
     cta = ""
