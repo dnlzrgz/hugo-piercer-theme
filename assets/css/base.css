@@ -16,6 +16,22 @@ footer {
     background-color: var(--accent);
 }
 
+h1 {
+    font-size: var(--h1);
+}
+
+h2 {
+    font-size: var(--h2);
+}
+
+h3 {
+    font-size: var(--h3);
+}
+
+h4 {
+    font-size: var(--h4);
+}
+
 header {
     background-color: var(--accent);
     box-shadow: 0 1px 2.25px var(--pink);
