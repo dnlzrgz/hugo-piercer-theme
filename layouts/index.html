@@ -1,3 +1,6 @@
 {{ define "main" }}
 {{ partial "hero.html" . }}
+{{ if $.Site.Params.form.show }}
+{{ partial "contact.html" . }}
+{{ end }}
 {{ end }}

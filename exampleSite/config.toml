@@ -68,9 +68,11 @@ themesDir = "../.."
     integrity = ""
 
 [params.form]
+    show = true
     netlify = false
     action = ""
     method = "POST"
+    section = "Contact me!"
     inputNameName = ""
     inputNameLabel = ""
     inputNamePlaceholder = ""
