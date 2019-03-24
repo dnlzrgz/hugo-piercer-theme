@@ -1,0 +1,15 @@
+<footer class="footer">
+
+    <!-- Copy -->
+    <div class="footer__copy">
+        {{ if $.Site.Params.copy.message }}
+        {{ $.Site.Params.copy.message }}
+        {{ else }}
+        © {{ now.Format "2006" }} - {{ $.Site.Title }}
+        {{ end }}
+    </div>
+
+    <!-- JS Script -->
+    {{ partial "scripts.html" . }}
+
+</footer>

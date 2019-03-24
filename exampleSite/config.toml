@@ -94,7 +94,7 @@ themesDir = "../.."
     "500px" = ""
 
 [params.copy]
-    copy = ""
+    message = ""
 
 [params.agreements]
     message = ""
