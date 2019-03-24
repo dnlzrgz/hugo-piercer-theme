@@ -1,0 +1,37 @@
+/* HERO */
+.hero {
+    align-items: center;
+    color: var(--foreground);
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    padding: 3.75rem 1.75rem;
+    position: fixed;
+    justify-content: center;
+}
+
+.hero > *:first-child {
+    margin-bottom: 1.45rem;
+}
+
+.hero > *:nth-child(2) {
+    text-align: center;
+}
+
+.cta {
+    background-color: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 15px;
+    display: block;
+    font-size: var(--p);
+    margin-top: 3.45rem;
+    padding: 0.75rem 1.45rem;
+    text-align: center;
+    transition: all 0.25s;
+    width: 80%;
+}
+
+.cta:hover {
+    background-color: var(--background);
+    color: var(--green);
+}
