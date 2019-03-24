@@ -6,7 +6,6 @@
     flex-direction: column;
     min-height: 90vh;
     padding: 3.75rem 1.75rem;
-    position: fixed;
     justify-content: center;
 }
 
@@ -35,3 +34,5 @@
     background-color: var(--background);
     color: var(--green);
 }
+
+/* CONTACT */
