@@ -82,7 +82,7 @@ themesDir = "../.."
     inputMsgName = ""
     inputMsgLabel = ""
     inputMsgLength = 750
-    inputSubmitValue = ""
+    SubmitValue = ""
 
 [params.contact]
     email = ""
