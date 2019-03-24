@@ -1,0 +1,11 @@
+{{ $version := "5.8.1" }}
+{{ $integrity := "sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" }}
+
+{{ if and $.Site.Params.fa.version $.Site.Params.fa.integrity }}
+{{ $version = $.Site.Params.fa.version }}
+{{ $integrity = $.Site.Params.fa.integrity }}
+{{ end }}
+
+{{ $src := printf "%s%s%s" "https://use.fontawesome.com/releases/v" $version "/js/all.js" }}
+
+<script defer src="{{ $src }}" integrity="{{ $integrity }}" crossorigin="anonymous"></script>
