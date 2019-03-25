@@ -1,7 +1,7 @@
 /* HERO */
 .hero {
     align-items: center;
-    box-shadow: 0 1px 2.25px var(--green);
+    border-bottom: 5px solid var(--green);
     color: var(--foreground);
     display: flex;
     flex-direction: column;
@@ -28,6 +28,7 @@
     border-radius: 15px;
     display: block;
     font-size: var(--p);
+    line-height: 1.2;
     margin-top: 3.45rem;
     padding: 0.75rem 1.45rem;
     text-align: center;
@@ -43,7 +44,7 @@
 /* CONTACT */
 .contact {
     align-items: center;
-    box-shadow: 0 1px 2.25px var(--green);
+    border-bottom: 5px solid var(--separator);
     display: flex;
     flex-direction: column;
     min-height: 90vh;
@@ -58,7 +59,6 @@
 
 .contact__form {
     display: grid;
-    grid-template-areas: "name" "email" "submit";
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     width: 100%;
@@ -80,4 +80,29 @@
 .submit:active {
     background-color: var(--background);
     color: var(--green);
+}
+
+/* FOOTER */
+.social-links {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.2;
+    justify-content: space-around;
+    padding: 0.75rem 0.45rem;
+    padding-top: 1.25rem;
+}
+
+.social-links__link {
+    font-size: var(--h4);
+}
+
+.footer__agreement,
+.footer__copy {
+    padding: 0.75rem 1.45rem;
+    text-align: center;
+}
+
+.footer__copy {
+    padding-bottom: 1.25rem;
 }

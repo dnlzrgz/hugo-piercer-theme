@@ -60,7 +60,7 @@ themesDir = "../.."
 
 [params.cta]
     show = true
-    message = "Get It!"
+    message = "Learn more!"
     link = "#"
 
 [params.fa]
@@ -88,14 +88,14 @@ themesDir = "../.."
     address = ""
 
 [params.social]
-    twitter = ""
-    facebook = ""
-    github = ""
-    gitlab = ""
-    codepen = ""
-    instagram = ""
-    pinterest = ""
-    youtube = ""
+    twitter = "#"
+    facebook = "#"
+    github = "#"
+    gitlab = "#"
+    codepen = "#"
+    instagram = "#"
+    pinterest = "#"
+    youtube = "#"
     linkedin = ""
     weibo = ""
     mastodon = ""
@@ -106,5 +106,5 @@ themesDir = "../.."
 [params.copy]
     message = ""
 
-[params.agreements]
-    message = ""
+[params.agreement]
+    message = "Piercer uses Font Awesome."

@@ -1,5 +1,17 @@
 <footer class="footer">
 
+    <!-- Social Links -->
+    {{ if $.Site.Params.social }}
+    {{ partial "social.html" . }}
+    {{ end }}
+
+    <!-- Agreement -->
+    {{ if $.Site.Params.agreement.message }}
+    <section class="footer__agreement">
+        {{ $.Site.Params.agreement.message }}
+    </section>
+    {{ end }}
+
     <!-- Copy -->
     <div class="footer__copy">
         {{ if $.Site.Params.copy.message }}

@@ -1,0 +1,14 @@
+<section class="social-links">
+    {{ $links := $.Site.Params.Social }}
+    {{ $len := (len $links) }}
+
+    {{ range $k, $v := $links }}
+    {{ if $v }}
+    <a href="{{ $v }}" class="social-links__link" alt="{{ $k }}" target="_blank" aria-label="{{ $v }}" rel="noopener">
+        <span class="social-links__link__icon">
+            <i class="fab fa-{{ $k }}"></i>
+        </span>
+    </a>
+    {{ end }}
+    {{ end }}
+</section>
