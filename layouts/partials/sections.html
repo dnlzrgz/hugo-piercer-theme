@@ -1,0 +1,8 @@
+{{ $items := (where $.Site.RegularPages "Type" "sections") }}
+
+{{ range $i, $item := $items }}
+<section class="section" id="{{ .Title }}">
+    <h1 class="section__title">{{ .Title }}</h1>
+    {{ .Content }}
+</section>
+{{ end }}
