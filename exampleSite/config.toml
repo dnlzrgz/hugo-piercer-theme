@@ -64,8 +64,8 @@ themesDir = "../.."
     link = "#"
 
 [params.fa]
-    version = ""
-    integrity = ""
+    version = "5.8.1"
+    integrity = "sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
 
 [params.form]
     show = true
@@ -73,15 +73,12 @@ themesDir = "../.."
     action = ""
     method = "POST"
     section = "Contact me!"
-    inputNameName = ""
-    inputNameLabel = ""
-    inputNamePlaceholder = ""
-    inputEmailName = ""
-    inputEmailLabel = ""
-    inputEmailPlaceholder = ""
-    inputMsgName = ""
-    inputMsgLabel = ""
-    inputMsgLength = 750
+    inputNameName = "Name"
+    inputNameLabel = "Your Name"
+    inputNamePlaceholder = "Your Name"
+    inputEmailName = "Email"
+    inputEmailLabel = "Your Email"
+    inputEmailPlaceholder = "Your Email"
     SubmitValue = ""
 
 [params.contact]

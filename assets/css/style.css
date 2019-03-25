@@ -1,6 +1,7 @@
 /* HERO */
 .hero {
     align-items: center;
+    box-shadow: 0 1px 2.25px var(--green);
     color: var(--foreground);
     display: flex;
     flex-direction: column;
@@ -17,6 +18,10 @@
     text-align: center;
 }
 
+.hero > p {
+    font-size: var(--p);
+}
+
 .cta {
     background-color: var(--green);
     border: 1px solid var(--green);
@@ -27,7 +32,7 @@
     padding: 0.75rem 1.45rem;
     text-align: center;
     transition: all 0.25s;
-    width: 80%;
+    width: 15rem;
 }
 
 .cta:hover {
@@ -36,3 +41,43 @@
 }
 
 /* CONTACT */
+.contact {
+    align-items: center;
+    box-shadow: 0 1px 2.25px var(--green);
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact__title {
+    font-size: var(--h3);
+    margin-bottom: 1.45rem;
+}
+
+.contact__form {
+    display: grid;
+    grid-template-areas: "name" "email" "submit";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    width: 100%;
+}
+
+.submit {
+    background-color: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 15px;
+    color: var(--foreground);
+    font-size: var(--p);
+    margin-top: 3.45rem;
+    padding: 0.75rem 1.45rem;
+    transition: all 0.25s;
+    width: 15rem;
+}
+
+.submit:hover,
+.submit:active {
+    background-color: var(--background);
+    color: var(--green);
+}
