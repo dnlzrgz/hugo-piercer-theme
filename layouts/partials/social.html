@@ -1,6 +1,6 @@
 <section class="social-links">
+
     {{ $links := $.Site.Params.Social }}
-    {{ $len := (len $links) }}
 
     {{ range $k, $v := $links }}
     {{ if $v }}
@@ -11,4 +11,5 @@
     </a>
     {{ end }}
     {{ end }}
+
 </section>
