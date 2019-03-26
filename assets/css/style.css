@@ -1,6 +1,11 @@
 /* HERO */
 .hero {
     align-items: center;
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-bottom: 5px solid var(--green);
     color: var(--foreground);
     display: flex;
@@ -44,6 +49,11 @@
 /* SECTIONS */
 .section {
     align-items: center;
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 90vh;

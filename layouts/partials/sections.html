@@ -1,7 +1,15 @@
 {{ $items := (where $.Site.RegularPages "Type" "sections") }}
 
 {{ range $items }}
-<section class="section" id="{{ .Title }}" style="border-bottom: 5px solid var(--{{ print .Params.borderColor }});">
+{{ $bkg := "" }}
+{{ if gt (len .Params.images) 0 }}
+{{ $bkgImage := print (index .Params.images 0) }}
+{{ $bkgURL := printf "%s%s" $.Site.BaseURL $bkgImage }}
+{{ $bkg = printf "%s%s%s" "background-image: url('" $bkgURL "');"}}
+{{ end }}
+
+<section class="section" id="{{ .Title }}"
+    style="{{ safeCSS $bkg }} border-bottom: 5px solid var(--{{ print .Params.borderColor }});">
     <h1 class="section__title">{{ .Title }}</h1>
     {{ .Content }}
 </section>
