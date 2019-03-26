@@ -1,7 +1,7 @@
 {{ $items := (where $.Site.RegularPages "Type" "sections") }}
 
-{{ range $i, $item := $items }}
-<section class="section" id="{{ .Title }}">
+{{ range $items }}
+<section class="section" id="{{ .Title }}" style="border-bottom: 5px solid var(--{{ print .Params.borderColor }});">
     <h1 class="section__title">{{ .Title }}</h1>
     {{ .Content }}
 </section>
