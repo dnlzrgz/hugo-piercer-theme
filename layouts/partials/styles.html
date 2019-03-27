@@ -1,7 +1,8 @@
 {{ $reset := resources.Get "css/reset.css" }}
 {{ $base := resources.Get "css/base.css" }}
 {{ $style := resources.Get "css/style.css" }}
-{{ $bundle := slice $reset $base $style | resources.Concat "css/bundle.css" }}
+{{ $common := resources.Get "css/common.css" }}
+{{ $bundle := slice $reset $base $style $common | resources.Concat "css/bundle.css" }}
 {{ $css := $bundle | resources.Minify | resources.Fingerprint "sha512" }}
 
 <style>

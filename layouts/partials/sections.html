@@ -8,7 +8,7 @@
 {{ $bkg = printf "%s%s%s" "background-image: url('" $bkgURL "');"}}
 {{ end }}
 
-<section class="section" id="{{ .Title }}"
+<section class="section bkg-image" id="{{ .Title }}"
     style="{{ safeCSS $bkg }} border-bottom: 5px solid var(--{{ print .Params.borderColor }});">
     <h1 class="section__title">{{ .Title }}</h1>
     {{ .Content }}

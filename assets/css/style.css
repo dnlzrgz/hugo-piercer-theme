@@ -1,11 +1,6 @@
 /* HERO */
 .hero {
     align-items: center;
-    background-attachment: fixed;
-    background-origin: content-box;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-bottom: 5px solid var(--green);
     color: var(--foreground);
     display: flex;
@@ -28,32 +23,14 @@
 }
 
 .cta {
-    background-color: var(--green);
-    border: 1px solid var(--green);
-    border-radius: 15px;
     display: block;
-    font-size: var(--p);
     line-height: 1.2;
-    margin-top: 3.45rem;
-    padding: 0.75rem 1.45rem;
     text-align: center;
-    transition: all 0.25s;
-    width: 15rem;
-}
-
-.cta:hover {
-    background-color: var(--background);
-    color: var(--green);
 }
 
 /* SECTIONS */
 .section {
     align-items: center;
-    background-attachment: fixed;
-    background-origin: content-box;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 90vh;
@@ -95,24 +72,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     width: 100%;
-}
-
-.submit {
-    background-color: var(--green);
-    border: 1px solid var(--green);
-    border-radius: 15px;
-    color: var(--foreground);
-    font-size: var(--p);
-    margin-top: 3.45rem;
-    padding: 0.75rem 1.45rem;
-    transition: all 0.25s;
-    width: 15rem;
-}
-
-.submit:hover,
-.submit:active {
-    background-color: var(--background);
-    color: var(--green);
 }
 
 /* FOOTER */
