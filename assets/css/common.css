@@ -7,8 +7,8 @@
 }
 
 .btn {
-    background-color: var(--green);
-    border: 1px solid var(--green);
+    background-color: var(--pink);
+    border: 1px solid var(--pink);
     border-radius: 15px;
     color: var(--foreground);
     font-size: var(--p);
@@ -21,5 +21,5 @@
 .btn:hover,
 .btn:active {
     background-color: var(--background);
-    color: var(--green);
+    color: var(--pink);
 }

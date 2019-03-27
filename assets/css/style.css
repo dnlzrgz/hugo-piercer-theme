@@ -1,3 +1,25 @@
+/* MENU */
+.menu__items {
+    background-color: var(--accent);
+    border-bottom: 5px solid var(--purple);
+    flex-direction: column;
+    height: 70vh;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    width: 100vw;
+}
+
+.menu__items__item {
+    display: block;
+    padding: 0.75rem 1.45rem;
+}
+
+.menu__toggle[open=""] {
+    color: var(--pink);
+}
+
 /* HERO */
 .hero {
     align-items: center;
@@ -24,7 +46,6 @@
 
 .cta {
     display: block;
-    line-height: 1.2;
     text-align: center;
 }
 
