@@ -32,21 +32,9 @@ h4 {
     font-size: var(--h4);
 }
 
-header {
-    background-color: var(--accent);
-    border-bottom: 5px solid var(--purple);
-    display: flex;
-    font-size: var(--p);
-    padding: 1.15rem 1.75rem;
-    position: fixed;
-    justify-content: space-between;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-}
-
 label {
     display: none;
+    visibility: hidden;
 }
 
 main {
