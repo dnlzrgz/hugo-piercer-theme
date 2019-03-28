@@ -1,7 +1,7 @@
 ---
-title: "Hugo & Piercer"
+title: ""
 draft: false
 weight: 2
-images: ["images/andrej-lisakov-674110-unsplash.jpg"]
+images: ["images/dracula-universal.jpg"]
 borderColor: "purple"
 ---

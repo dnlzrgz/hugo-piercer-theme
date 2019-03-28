@@ -107,4 +107,4 @@ themesDir = "../.."
     message = ""
 
 [params.agreement]
-    message = "Piercer uses Font Awesome."
+    message = "Piercer uses Font Awesome. The content of the home page comes from Wikipedia. The content of the blog posts and the about page comes from the Hugo Example Site. The Dracula's image is scary."

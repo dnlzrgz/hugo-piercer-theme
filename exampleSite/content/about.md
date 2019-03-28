@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "About the most ugly/beautiful theme in the World for Hugo"
+description: "Hugo, the world’s fastest framework for building websites"
 draft: false
 images: []
 borderColor: "yellow"
@@ -8,25 +8,20 @@ menu: main
 weight: 2
 ---
 
-## Why?
-Consequat ipsum amet non nisi minim ipsum sunt non qui veniam. Veniam ad voluptate Lorem magna sit tempor. Laboris anim enim minim duis ullamco dolore quis cillum sit est enim exercitation. Et esse dolor anim pariatur sint culpa nulla nisi eu laboris deserunt aliqua nisi. Ea officia aute ea do sunt deserunt. Veniam ex minim nulla do consectetur. Officia mollit pariatur dolor excepteur in officia quis deserunt nisi.
+Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
----
+Hugo makes use of a variety of open source projects including:
 
-## When?
-Minim enim sint adipisicing reprehenderit eiusmod adipisicing nisi mollit excepteur commodo est ad do. Labore nostrud minim enim commodo dolore aliquip do dolor consequat aliquip. Qui tempor sunt aliqua amet non. Ut enim dolor sint dolore nulla ut est deserunt est proident aliquip.
+* https://github.com/russross/blackfriday
+* https://github.com/alecthomas/chroma
+* https://github.com/muesli/smartcrop
+* https://github.com/spf13/cobra
+* https://github.com/spf13/viper
 
----
+Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
 
-## What?
-Proident quis aliqua deserunt tempor duis nostrud ex nostrud eu nisi non reprehenderit. Eu ipsum ipsum nostrud magna aute minim dolor in nulla exercitation consequat laboris ex. Sit quis consequat laboris ad tempor sint aliqua in. Fugiat sunt magna nulla et dolor esse eiusmod dolor velit. Ullamco occaecat sunt occaecat non laborum non minim reprehenderit sit culpa fugiat.
+Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
 
----
+Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
 
-## Who?
-Elit adipisicing reprehenderit id anim mollit. Nostrud velit laboris duis est in eu proident amet fugiat laboris nisi ex nisi. Consectetur laboris do nostrud commodo cupidatat. Veniam mollit sunt velit qui culpa ad elit cupidatat. Consectetur eiusmod quis id culpa minim ex ut deserunt enim. Occaecat elit duis dolore est commodo commodo deserunt. Adipisicing enim sint esse nulla id consequat ex officia elit dolor reprehenderit sint.
-
----
-
-## Where?
-Ex aute consectetur minim mollit ullamco velit dolor sit tempor sint minim dolor ullamco Lorem. Aliquip eu eu ea esse ut sunt. Cupidatat voluptate ea laborum irure.
+Learn more and contribute on [GitHub](https://github.com/gohugoio).
