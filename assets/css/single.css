@@ -24,6 +24,18 @@
     padding: 0.75rem 1.45rem;
 }
 
+.single__content a {
+    border-bottom: 3px solid var(--yellow);
+}
+
+.single__content a:hover {
+    border-bottom: 3px solid var(--pink);
+}
+
+.single__content a:visited {
+    border-bottom: 3px solid var(--purple);
+}
+
 .single__content > h1 {
     font-size: var(--h3);
 }
