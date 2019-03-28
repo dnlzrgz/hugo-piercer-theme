@@ -12,10 +12,6 @@ body {
     font-size: var(--base);
 }
 
-footer {
-    background-color: var(--accent);
-}
-
 h1 {
     font-size: var(--h1);
 }

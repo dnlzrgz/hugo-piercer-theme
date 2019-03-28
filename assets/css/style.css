@@ -113,6 +113,10 @@
 }
 
 /* FOOTER */
+.footer {
+    background-color: var(--accent);
+}
+
 .social-links {
     align-items: center;
     display: flex;
