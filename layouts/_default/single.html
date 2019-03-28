@@ -29,7 +29,7 @@
     <footer class="single__footer">
         {{ if .Params.tags }}
         {{ if gt (len .Params.tags) 0 }}
-        <!-- Nothing for the moment -->
+        {{ .Render "tags" }}
         {{ end }}
         {{ end }}
     </footer>

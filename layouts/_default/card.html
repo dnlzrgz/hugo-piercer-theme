@@ -1,0 +1,38 @@
+<article class="card">
+
+    <!-- Header -->
+    <header class="card__header">
+        <h1 class="card__header__title">
+            <a href="{{ .Permalink }}" class="card__header__title__link" alt="{{ .Title }}">
+                {{ .Title }}
+            </a>
+        </h1>
+
+        {{ if .Params.Author }}
+        <p class="card__header__author">
+            {{ .Params.Author }}
+        </p>
+        {{ end }}
+
+        <p class="card__header__date">
+            {{ .Params.PublishDate }}
+        </p>
+    </header>
+
+    <!-- Main -->
+    {{ if .Params.Description }}
+    <main class="card__body">
+        <p class="card__body__description">
+            {{ .Params.Description }}
+        </p>
+    </main>
+    {{ end }}
+
+    <!-- Footer -->
+    {{ if .Params.tags }}
+    {{ if gt (len .Params.tags) 0 }}
+    {{ .Render "tags" }}
+    {{ end }}
+    {{ end }}
+
+</article>

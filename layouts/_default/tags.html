@@ -1,0 +1,10 @@
+<ul class="tags">
+
+    {{ range .Params.tags }}
+    {{ $url := printf "%stags/%s/" $.Site.BaseURL . }}
+    <li class="tags__item">
+        <a href="{{ $url }}" class="tags__item__link" alt="{{ . }}">#{{ . }}</a>
+    </li>
+    {{ end}}
+
+</ul>

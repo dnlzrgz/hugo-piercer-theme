@@ -6,4 +6,5 @@ publishDate: {{ .Date }}
 author: ""
 draft: true
 images: []
+tags: []
 ---

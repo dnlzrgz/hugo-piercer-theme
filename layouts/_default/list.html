@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="list">
+
+    <!-- Content -->
+    {{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "blog") }}
+    {{ range $paginator.Pages }}
+    {{ .Render "card" }}
+    {{ end }}
+
+    <!-- Pagination -->
+    {{ template "_internal/pagination.html" . }}
+
+</div>
+{{ end }}
