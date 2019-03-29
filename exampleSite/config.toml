@@ -83,10 +83,14 @@ themesDir = "../.."
     SubmitValue = ""
 
 [params.contact]
-    email = ""
-    phone = ""
-    skype = ""
-    address = ""
+    show = true
+    email = "example@hugo.com"
+    phone = "123456789+"
+    skype = "live:example"
+    address = "P. Sherman 42, Wallaby Way, Sydney"
+
+[params.date]
+    format = ""
 
 [params.social]
     twitter = "#"

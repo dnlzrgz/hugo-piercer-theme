@@ -16,7 +16,11 @@
 
         {{ if .Params.PublishDate }}
         <p class="card__header__date">
+            {{ if $.Site.Params.date.format }}
+            {{ .PublishDate.Format $.Site.Params.date.format }}
+            {{ else }}
             {{ .PublishDate.Format "January 2, 2006" }}
+            {{ end }}
         </p>
         {{ end }}
     </header>
