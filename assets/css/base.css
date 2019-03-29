@@ -12,6 +12,16 @@ body {
     font-size: var(--base);
 }
 
+blockquote {
+    color: var(--background);
+    background-color: var(--foreground);
+    padding: 0.75rem 1.45rem;
+}
+
+code {
+    font-size: var(--text);
+}
+
 h1 {
     font-size: var(--h1);
 }
@@ -28,6 +38,12 @@ h4 {
     font-size: var(--h4);
 }
 
+h3,
+h4 {
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+
 hr {
     background-color: var(--separator);
     border: none;
@@ -35,9 +51,9 @@ hr {
     width: 50%;
 }
 
-label {
-    display: none;
-    visibility: hidden;
+img {
+    height: auto;
+    width: 100;
 }
 
 input {
@@ -51,4 +67,23 @@ input {
 
 input:required {
     outline-color: var(--red);
+}
+
+label {
+    display: none;
+    visibility: hidden;
+}
+
+mark {
+    background-color: var(--yellow);
+}
+
+pre {
+    font-size: var(--p);
+    padding: 0.75rem 1.45rem;
+}
+
+svg {
+    height: auto;
+    width: 100%;
 }
