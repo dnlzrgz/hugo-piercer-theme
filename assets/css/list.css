@@ -1,0 +1,53 @@
+/* LIST */
+.list {
+    min-height: 100vh;
+}
+
+/* HEADER */
+.card {
+    padding: 1.75rem 1.45rem;
+    width: 100%;
+}
+
+.card__header {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+}
+
+.card__header__title {
+    font-size: var(--h3);
+}
+
+/* BODY */
+.card__body {
+    height: auto;
+}
+
+.card__footer {
+    border-bottom: 5px solid var(--separator);
+}
+
+/* FOOTER & TAGS */
+.tags {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 0.75rem;
+    padding: 0;
+}
+
+.tags__item {
+    margin-right: 0.75rem;
+}
+
+/* PAGINATION */
+.pagination {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin-top: 3.75rem;
+    padding: 0 1.75rem;
+    justify-content: space-evenly;
+}

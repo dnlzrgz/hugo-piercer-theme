@@ -14,9 +14,11 @@
         </p>
         {{ end }}
 
+        {{ if .Params.PublishDate }}
         <p class="card__header__date">
-            {{ .Params.PublishDate }}
+            {{ .PublishDate.Format "January 2, 2006" }}
         </p>
+        {{ end }}
     </header>
 
     <!-- Main -->
@@ -29,10 +31,11 @@
     {{ end }}
 
     <!-- Footer -->
-    {{ if .Params.tags }}
-    {{ if gt (len .Params.tags) 0 }}
-    {{ .Render "tags" }}
-    {{ end }}
-    {{ end }}
-
+    <footer class="card__footer">
+        {{ if .Params.tags }}
+        {{ if gt (len .Params.tags) 0 }}
+        {{ .Render "tags" }}
+        {{ end }}
+        {{ end }}
+    </footer>
 </article>

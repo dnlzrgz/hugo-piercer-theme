@@ -1,3 +1,4 @@
+/* HEADER */
 .single {
     border-bottom: 5px solid var(--purple);
 }
@@ -20,8 +21,10 @@
     text-align: center;
 }
 
+/* CONTENT */
 .single__content {
     padding: 0.75rem 1.45rem;
+    min-height: 100vh;
 }
 
 .single__content a {
@@ -50,6 +53,7 @@
     margin-top: 2.75rem;
 }
 
+/* FOOTER */
 .single__footer {
     margin-bottom: 27vh;
 }

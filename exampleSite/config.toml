@@ -4,6 +4,7 @@ author = "Daniel Zaragoza (Danielkvist)"
 googleAnalytics = ""
 defaultContentLanguage = "en"
 language = "en-US"
+paginate = 3
 
 theme = "hugo-piercer-theme"
 themesDir = "../.."

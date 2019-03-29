@@ -40,10 +40,6 @@ label {
     visibility: hidden;
 }
 
-main {
-    min-height: 100vh;
-}
-
 input {
     background-color: var(--foreground);
     border: none;

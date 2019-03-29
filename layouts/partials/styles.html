@@ -3,7 +3,8 @@
 {{ $common := resources.Get "css/common.css" }}
 {{ $style := resources.Get "css/style.css" }}
 {{ $single := resources.Get "css/single.css" }}
-{{ $bundle := slice $reset $base $common $style $single | resources.Concat "css/bundle.css" }}
+{{ $list := resources.Get "css/list.css" }}
+{{ $bundle := slice $reset $base $common $style $single $list | resources.Concat "css/bundle.css" }}
 {{ $css := $bundle | resources.Minify | resources.Fingerprint "sha512" }}
 
 <style>
