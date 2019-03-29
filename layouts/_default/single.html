@@ -16,8 +16,24 @@
 
     <!-- Header -->
     <header class="single__header bkg-image" style="{{ safeCSS $bkg }} {{ if $bkg }}height: 75vh; {{end}}">
-        <h1>{{ .Title }}</h1>
-        <h2>{{ .Description }}</h2>
+        <h1 class="single__header__title">{{ .Title }}</h1>
+
+        {{ if .Params.PublishDate }}
+        <p class="single__header__date">
+            {{ .PublishDate.Format "January 2, 2006" }}
+        </p>
+        {{ end }}
+
+        {{ if .Params.Author }}
+        <p class="single__header__author">
+            By {{ .Params.Author }}
+        </p>
+        {{ end }}
+
+        {{ if .Params.Description}}
+        <h2 class="single__header__subtitle">{{ .Description }}</h2>
+        {{ end}}
+
     </header>
 
     <!-- Content -->

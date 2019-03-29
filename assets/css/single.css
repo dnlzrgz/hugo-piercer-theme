@@ -57,3 +57,8 @@
 .single__footer {
     margin-bottom: 27vh;
 }
+
+.single__footer .tags {
+    padding: 0.75rem 1.45rem;
+    justify-content: center;
+}
