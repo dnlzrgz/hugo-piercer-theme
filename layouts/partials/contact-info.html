@@ -1,0 +1,43 @@
+<section class="contact-info">
+    <address class="contact-info__info">
+
+        <!-- Email -->
+        {{ if $.Site.Params.contact.email }}
+        <p class="contact-info__info__item">
+            <span><i class="far fa-envelope"></i></span>
+            <a href="mailto:{{ $.Site.Params.contact.email}}" class="contact-info__info__item__link" alt="Email">
+                {{ $.Site.Params.contact.email }}
+            </a>
+        </p>
+        {{ end }}
+
+        <!-- Phone -->
+        {{ if $.Site.Params.contact.phone }}
+        <p class="contact-info__info__item">
+            <span><i class="fas fa-phone"></i></span>
+            <a href="tel:{{ $.Site.Params.contact.phone }}" class="contact-info__info__item__link" alt="Phone">
+                {{ $.Site.Params.contact.phone }}
+            </a>
+        </p>
+        {{ end }}
+
+        <!-- Skype -->
+        {{ if $.Site.Params.contact.skype }}
+        <p class="contact-info__info__item">
+            <span><i class="fab fa-skype"></i></span>
+            <a href="skype:{{ $.Site.Params.contact.skype }}" class="contact-info__info__item__link" alt="Skype">
+                {{ $.Site.Params.contact.skype }}
+            </a>
+        </p>
+        {{ end }}
+
+        <!-- Address -->
+        {{ if $.Site.Params.contact.address }}
+        <p class="contact-info__info__item">
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            {{ $.Site.Params.contact.address }}
+        </p>
+        {{ end }}
+
+    </address>
+</section>

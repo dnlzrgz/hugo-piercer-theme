@@ -5,11 +5,19 @@
     {{ partial "social.html" . }}
     {{ end }}
 
+    <!-- Contact Links -->
+    {{ if $.Site.Params.contact.show }}
+    <hr>
+    {{ partial "contact-info.html" . }}
+    <hr>
+    {{ end }}
+
     <!-- Agreement -->
     {{ if $.Site.Params.agreement.message }}
     <section class="footer__agreement">
         {{ $.Site.Params.agreement.message }}
     </section>
+    <hr>
     {{ end }}
 
     <!-- Copy -->

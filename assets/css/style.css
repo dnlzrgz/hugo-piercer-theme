@@ -123,12 +123,32 @@
     flex-wrap: wrap;
     line-height: 1.2;
     justify-content: space-around;
-    padding: 0.75rem 0.45rem;
+    padding: 0.75rem 0.75rem;
     padding-top: 1.25rem;
 }
 
 .social-links__link {
     font-size: var(--h4);
+}
+
+.contact-info {
+    margin-top: 1.75rem;
+}
+
+.contact-info__info {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+.contact-info__info__item {
+    padding: 0 1.45rem;
+}
+
+.contact-info__info__item span {
+    margin-right: 0.25rem;
 }
 
 .footer__agreement,
