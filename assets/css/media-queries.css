@@ -9,6 +9,11 @@
 */
 
 @media only screen and (min-width: 576px) {
+    /* HEADER */
+    .header {
+        padding: 1.15rem 2.75rem;
+    }
+
     /* SECTIONS */
     .section {
         padding: 0 5%;
@@ -37,5 +42,49 @@
     /* PAGINATION */
     .pagination {
         padding: 0 15%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* SECTIONS */
+    .section {
+        padding: 0 9%;
+    }
+
+    /* CONTENT */
+    .single__content {
+        padding: 1.45rem 9%;
+    }
+
+    /* FOOTER */
+    .footer__agreement {
+        padding: 1.45rem 9%;
+    }
+
+    /* PAGINATION */
+    .pagination {
+        padding: 0 20%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* SECTIONS */
+    .section {
+        padding: 0 21%;
+    }
+
+    /* CONTENT */
+    .single__content {
+        padding: 1.45rem 21%;
+    }
+
+    /* FOOTER */
+    .footer__agreement {
+        padding: 1.45rem 21%;
+    }
+
+    /* PAGINATION */
+    .pagination {
+        padding: 0 25%;
     }
 }
