@@ -112,6 +112,10 @@
     width: 100%;
 }
 
+.contact__form__field > input {
+    width: 85%;
+}
+
 /* FOOTER */
 .footer {
     background-color: var(--accent);
@@ -136,10 +140,8 @@
 }
 
 .contact-info__info {
-    display: grid;
-    grid-auto-rows: auto;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 

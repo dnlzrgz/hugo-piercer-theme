@@ -1,0 +1,41 @@
+/*
+*** Breackpoints ***
+*
+* Small devices:        576px;
+* Medium devices:       768px;
+* Large devices:        992px;
+* Extra large devices:  1200px;
+*
+*/
+
+@media only screen and (min-width: 576px) {
+    /* SECTIONS */
+    .section {
+        padding: 0 5%;
+    }
+
+    /* CONTENT */
+    .single__content {
+        padding: 1.45rem 5%;
+    }
+
+    /* CONTACT */
+    .contact__form__field > input {
+        max-width: 25rem;
+    }
+
+    /* FOOTER */
+    .contact-info__info {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer__agreement {
+        padding: 1.45rem 5%;
+    }
+
+    /* PAGINATION */
+    .pagination {
+        padding: 0 15%;
+    }
+}
