@@ -31,7 +31,7 @@ themesDir = "../.."
 
 [params]
     description = "Piercer is a fast and customizable theme for Hugo. Designed with a mobile-first philosophy and with accessibility in mind."
-    favicon = ""
+    favicon = "favicon.ico"
     logo = ""
 
 [params.palette]
