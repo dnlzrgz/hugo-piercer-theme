@@ -12,6 +12,14 @@
     z-index: 999;
 }
 
+.header__title {
+    width: 50%;
+}
+
+.header__title__link--logo {
+    width: 50%;
+}
+
 /* MENU */
 .menu__items {
     background-color: var(--accent);
@@ -54,11 +62,13 @@
 }
 
 .hero > *:nth-child(2) {
+    padding: 0 3.75rem;
     text-align: center;
 }
 
 .hero > p {
     font-size: var(--p);
+    padding: 3.45rem;
 }
 
 .cta {
@@ -92,7 +102,6 @@
 /* CONTACT */
 .contact {
     align-items: center;
-    border-bottom: 5px solid var(--separator);
     display: flex;
     flex-direction: column;
     min-height: 90vh;
@@ -119,12 +128,14 @@
 /* FOOTER */
 .footer {
     background-color: var(--accent);
+    border-top: 5px solid var(--separator);
 }
 
 .social-links {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    grid-area: "social";
     line-height: 1.2;
     justify-content: space-around;
     padding: 0.75rem 0.75rem;

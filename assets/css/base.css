@@ -48,7 +48,7 @@ hr {
     background-color: var(--separator);
     border: none;
     height: 5px;
-    width: 50%;
+    width: 45%;
 }
 
 img {
@@ -62,7 +62,7 @@ input {
     color: var(--background);
     font-size: var(--text);
     margin-top: 1.25rem;
-    padding: 0.75rem 1.45rem;
+    padding: 1.15rem 1.25rem;
 }
 
 input:required {
@@ -80,7 +80,7 @@ mark {
 
 pre {
     font-size: var(--p);
-    padding: 0.75rem 1.45rem;
+    padding: 1.15rem 1.25rem;
 }
 
 svg {

@@ -46,6 +46,11 @@
 }
 
 @media only screen and (min-width: 768px) {
+    /* HEADER */
+    .header__title__link--logo {
+        width: 35%;
+    }
+
     /* SECTIONS */
     .section {
         padding: 0 9%;
@@ -61,6 +66,10 @@
         padding: 1.45rem 9%;
     }
 
+    hr {
+        width: 25%;
+    }
+
     /* PAGINATION */
     .pagination {
         padding: 0 20%;
@@ -68,6 +77,15 @@
 }
 
 @media only screen and (min-width: 992px) {
+    /* HEADER */
+    .header {
+        padding: 0.75rem 4.75rem;
+    }
+
+    .header__title__link--logo {
+        width: 25%;
+    }
+
     /* SECTIONS */
     .section {
         padding: 0 21%;
@@ -86,5 +104,17 @@
     /* PAGINATION */
     .pagination {
         padding: 0 25%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    /* HEADER */
+    .header__title__link--logo {
+        width: 20%;
+    }
+
+    /* PAGINATION */
+    .pagination {
+        padding: 0 30%;
     }
 }
