@@ -3,7 +3,6 @@ title: "About"
 description: "Hugo, the world’s fastest framework for building websites"
 draft: false
 images: []
-borderColor: "yellow"
 menu: main
 weight: 2
 ---

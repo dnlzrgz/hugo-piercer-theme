@@ -1,12 +1,5 @@
 {{ define "main" }}
-
-{{ $bc := "" }}
-
-{{ if .Params.borderColor }}
-{{ $bc = printf "%s%s%s" "border-bottom: 5px solid var(--" (.Params.borderColor) ");"}}
-{{ end }}
-
-<article class="single" style="{{ safeCSS $bc }}">
+<article class="single">
     {{ $bkg := "" }}
     {{ if gt (len .Params.Images) 0 }}
     {{ $bkgImage := print (index .Params.images 0) }}

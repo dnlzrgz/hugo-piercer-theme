@@ -1,8 +1,4 @@
 /* HEADER */
-.single {
-    border-bottom: 5px solid var(--purple);
-}
-
 .single__header {
     align-items: center;
     display: flex;
