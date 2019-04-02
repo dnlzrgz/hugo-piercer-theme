@@ -1,10 +1,16 @@
 name = "Piercer"
 license = "MIT"
 licenselink = "https://github.com/danielkvist/hugo-piercer-theme/blob/master/LICENSE"
-description = ""
+description = "Piercer is a very customizable, fast and simple Hugo theme designed under the mobile-first philosophy."
 homepage = "https://github.com/danielkvist/hugo-piercer-theme"
-tags = []
-features = []
+tags = ["blog", "responsive", "minimal", "simple", "font awesome", "dark", "landing page", "contact form", "mobile", "fast", "customizable", "google fonts"]
+features = [
+  "customizable (color palette, font size, font family and more)",
+  "hamburger menu without JavaScript",
+  "great SEO by default",
+  "mobile-first philosophy",
+  "fast",
+]
 min_version = "0.41"
 
 [author]
