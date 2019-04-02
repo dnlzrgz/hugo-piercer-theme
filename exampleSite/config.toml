@@ -56,6 +56,9 @@ themesDir = "../.."
     h2 = "2.441em"
     h1 = "3.052em"
 
+[params.googlefonts]
+    font = ""
+
 [params.header]
     show = true
 

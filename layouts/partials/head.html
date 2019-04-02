@@ -18,4 +18,16 @@
 
 	<!-- CSS Styles -->
 	{{ partial "styles.html" . }}
+
+	<!-- Google Fonts -->
+	{{ if $.Site.Params.googlefonts.font }}
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ $.Site.Params.googlefonts.font }}">
+
+	<style>
+		body {
+			font-family: '{{ .Site.Params.googlefonts.font }}',
+			sans-serif;
+		}
+	</style>
+	{{ end }}
 </head>
