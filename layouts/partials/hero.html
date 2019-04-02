@@ -5,7 +5,7 @@
 {{ $bkg = printf "%s%s%s" "background-image: url('" $bkgURL "');"}}
 {{ end }}
 
-<section class="hero bkg-image" style="{{ safeCSS $bkg }}">
+<section class="hero bkg-image" style="{{ safeCSS $bkg }}" id="hero">
 
     <!-- Content -->
     {{ .Content }}
