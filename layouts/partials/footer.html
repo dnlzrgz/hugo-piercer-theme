@@ -15,7 +15,7 @@
     <!-- Agreement -->
     {{ if $.Site.Params.agreement.message }}
     <section class="footer__agreement">
-        {{ $.Site.Params.agreement.message }}
+        {{ safeHTML $.Site.Params.agreement.message }}
     </section>
     <hr>
     {{ end }}
