@@ -2,6 +2,7 @@ baseurl = "/"
 title = "Piercer"
 author = "Daniel Zaragoza (Danielkvist)"
 googleAnalytics = ""
+enableRobotsTXT = true
 defaultContentLanguage = "en"
 language = "en-US"
 paginate = 3
