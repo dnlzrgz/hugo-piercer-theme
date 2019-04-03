@@ -28,6 +28,6 @@ docker-stop:
 docker-rm:
 	docker container rm $(APP_NAME)
 dev: hugo-server-draft
-build: huo-build-deploy
+build: hugo-build-deploy
 check: hugo-build-min docker-nc docker-run
 clean: docker-stop docker-rm hugo-clean
