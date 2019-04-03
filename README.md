@@ -2,6 +2,8 @@
 
 Piercer is a very customizable, fast and simple Hugo theme designed under the mobile-first philosophy.
 
+![Hugo Piercer theme screenshot](https://github.com/danielkvist/hugo-piercer-theme/blob/master/images/screenshot.png)
+
 ## Dracula
 
 Piercer's default color palette is based on the Dracula theme. You can see more of it [here](https://draculatheme.com/).
