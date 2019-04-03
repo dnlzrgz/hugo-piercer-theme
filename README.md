@@ -225,6 +225,13 @@ logo = ""        # Relative URL for your logo
     message = ""    # You can use HTML tags
 ```
 
+### 404
+
+```toml
+[params.notfound]
+    message = ""
+```
+
 ## Archetypes
 
 Piercer includes three archetypes:

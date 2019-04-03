@@ -173,3 +173,11 @@
 .footer__copy {
     padding-bottom: 1.25rem;
 }
+
+/* 404 */
+.notfound {
+    align-items: center;
+    display: flex;
+    font-size: var(--h1);
+    justify-content: center;
+}

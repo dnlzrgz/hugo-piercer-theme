@@ -1,0 +1,17 @@
+{{ define "main" }}
+
+<div class="single__content notfound">
+    <h1>
+        {{ if $.Site.Params.notfound }}
+        {{ if $.Site.Params.notfound.message }}
+        {{ $.Site.Params.notfound.message }}
+        {{ else }}
+        404
+        {{end }}
+        {{ else }}
+        404
+        {{ end}}
+    </h1>
+</div>
+
+{{ end }}
