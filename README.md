@@ -286,7 +286,7 @@ The Front Matter of your single pages should look like this:
 ```markdown
 ---
 title: "About"
-description: ""
+description: "About me."
 draft: false
 images: []
 menu: main
@@ -325,14 +325,14 @@ The Front Matter of your posts should look like this:
 
 ```markdown
 ---
-title: ""
-description: ""
-date: date
-publishDate: publishDate
-author: ""
-draft: true
+title: "Emojis"
+description: "Emoji can be enabled in a Hugo project in a number of ways."
+date: 2019-03-28T12:24:47+01:00
+publishDate: 2019-03-28T12:24:47+01:00
+author: "Myself"
+draft: false
 images: []
-tags: []
+tags: ["emojis", "hugo"]
 ---
 ```
 
