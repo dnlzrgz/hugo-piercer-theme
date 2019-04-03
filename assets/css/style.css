@@ -99,6 +99,18 @@
     margin-right: 0.95rem;
 }
 
+.section a {
+    border-bottom: 3px solid var(--yellow);
+}
+
+.section a:hover {
+    border-bottom: 3px solid var(--pink);
+}
+
+.section a:visited {
+    border-bottom: 3px solid var(--purple);
+}
+
 /* CONTACT */
 .contact {
     align-items: center;
