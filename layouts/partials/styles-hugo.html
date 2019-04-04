@@ -1,0 +1,12 @@
+{{ $reset := resources.Get "css/reset.css" }}
+{{ $base := resources.Get "css/base.css" }}
+{{ $common := resources.Get "css/common.css" }}
+{{ $style := resources.Get "css/style.css" }}
+{{ $single := resources.Get "css/single.css" }}
+{{ $list := resources.Get "css/list.css" }}
+{{ $medias := resources.Get "css/media-queries.css" }}
+{{ $bundle := slice $reset $base $common $style $single $list $medias | resources.Concat "css/bundle.css" }}
+
+{{ $css := $bundle | resources.Minify | resources.Fingerprint "sha512" }}
+
+<link rel="stylesheet" href="{{ $css.Permalink }}">

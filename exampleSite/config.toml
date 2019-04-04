@@ -35,6 +35,9 @@ themesDir = "../.."
     favicon = "favicon.ico"
     logo = ""
 
+[params.postcss]
+    postcss = false
+
 [params.palette]
     text = "#fdfdfd"
     background = "#282a36"
