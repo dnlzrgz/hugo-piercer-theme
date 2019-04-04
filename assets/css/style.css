@@ -117,7 +117,6 @@
     display: flex;
     flex-direction: column;
     min-height: 90vh;
-    text-align: center;
     justify-content: center;
 }
 
@@ -130,11 +129,37 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
+    justify-items: center;
     width: 100%;
 }
 
+.contact__form__field {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "label" "input";
+    margin: 0.75rem 0;
+    justify-content: center;
+    width: 21rem;
+}
+
+.contact__form__field > label {
+    grid-area: label;
+}
+
 .contact__form__field > input {
-    width: 85%;
+    grid-area: input;
+}
+
+input:focus~label,
+input:hover~label {
+    color: var(--pink);
+}
+
+.contact__form__field--submit {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* FOOTER */

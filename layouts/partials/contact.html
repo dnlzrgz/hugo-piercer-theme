@@ -8,24 +8,24 @@
     {{ else }}
     <form action="{{ $.Site.Params.form.action }}" method="{{ upper $.Site.Params.form.method }}"
         class="contact__form" id="contactForm">
-    {{ end}}
+        {{ end}}
 
         <!-- Name -->
         <div class="contact__form__field contact__form__field--name">
-            <label for="{{ $.Site.Params.form.inputNameName }}">{{ $.Site.Params.form.inputNameLabel }}</label>
             <input type="text" name="{{ $.Site.Params.form.inputNameName }}"
                 placeholder="{{ $.Site.Params.form.inputNamePlaceholder }}"
                 id="{{ $.Site.Params.form.inputNameName }}" aria-labelledby="{{ $.Site.Params.form.inputNameName }}"
                 required>
+            <label for="{{ $.Site.Params.form.inputNameName }}">{{ $.Site.Params.form.inputNameLabel }}</label>
         </div>
 
         <!-- Email -->
         <div class="contact__form__field contact__form__field--email">
-            <label for="{{ $.Site.Params.form.inputEmailName }}">{{ $.Site.Params.form.inputEmailLabel }}</label>
             <input type="email" name="{{ $.Site.Params.form.inputEmailName }}"
                 placeholder="{{ $.Site.Params.form.inputEmailPlaceholder }}"
                 id="{{ $.Site.Params.form.inputEmailName }}"
                 aria-labelledby="{{ $.Site.Params.form.InputEmailName }}" required>
+            <label for="{{ $.Site.Params.form.inputEmailName }}">{{ $.Site.Params.form.inputEmailLabel }}</label>
         </div>
 
         <!-- Submit -->

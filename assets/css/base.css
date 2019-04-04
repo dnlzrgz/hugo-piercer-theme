@@ -61,17 +61,11 @@ input {
     border: none;
     color: var(--background);
     font-size: var(--text);
-    margin-top: 1.25rem;
     padding: 1.15rem 1.25rem;
 }
 
 input:required {
     outline-color: var(--red);
-}
-
-label {
-    display: none;
-    visibility: hidden;
 }
 
 mark {

@@ -24,11 +24,6 @@
         padding: 1.45rem 5%;
     }
 
-    /* CONTACT */
-    .contact__form__field > input {
-        max-width: 25rem;
-    }
-
     /* FOOTER */
     .contact-info__info {
         flex-direction: row;
