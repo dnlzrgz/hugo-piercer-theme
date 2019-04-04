@@ -16,6 +16,7 @@ Some of the basic features of Piercer are:
 * Hamburger menu without JavaScript.
 * Great SEO by default.
 * Mobile-first philosophy.
+* Optional support for PostCSS.
 * Fast.
 
 Some of the things that are not planned to add are:
@@ -95,6 +96,15 @@ description = "" # Description for the meta description tag
 favicon = ""     # Relative URL for your favicon
 logo = ""        # Relative URL for your logo
 ```
+
+### PostCSS
+
+```toml
+[params.postcss]
+    postcss = true
+```
+
+> If you want to use PostCSS you have to install the ```postcss-cli``` package with npm in your project first. You can find more information [here](https://gohugo.io/hugo-pipes/postcss/).
 
 ### Color palette and font sizes
 
