@@ -174,6 +174,7 @@ logo = ""        # Relative URL for your logo
     action = ""
     method = "POST"
     section = "Contact me!" # Title of the section
+    disclaimer = ""
     inputNameName = "Name"
     inputNameLabel = "Your Name"
     inputNamePlaceholder = "Your Name"
