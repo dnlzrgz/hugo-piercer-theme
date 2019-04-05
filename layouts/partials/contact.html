@@ -2,6 +2,9 @@
     <h1 class="contact__title">
         {{ $.Site.Params.form.Section }}
     </h1>
+    {{ if $.Site.Params.form.disclaimer }}
+    <p class="contact__disclaimer">{{ $.Site.Params.form.disclaimer }}</p>
+    {{ end }}
 
     {{ if $.Site.Params.form.netlify }}
     <form name="contact" method="POST" data-netlify="true" class="contact__form" id="contactForm">

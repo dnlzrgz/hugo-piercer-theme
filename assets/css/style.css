@@ -125,6 +125,12 @@
     margin-bottom: 1.45rem;
 }
 
+.contact__disclaimer {
+    margin-left: 0.95rem;
+    margin-right: 0.95rem;
+    text-align: center;
+}
+
 .contact__form {
     display: grid;
     grid-template-columns: 1fr;
