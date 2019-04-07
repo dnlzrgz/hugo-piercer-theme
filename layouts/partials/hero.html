@@ -1,8 +1,11 @@
 {{ $bkg := "" }}
+
+{{ if .Params.images }}
 {{ if gt (len .Params.images) 0 }}
 {{ $bkgImage := print (index .Params.images 0) }}
 {{ $bkgURL := printf "%s%s" $.Site.BaseURL $bkgImage }}
 {{ $bkg = printf "%s%s%s" "background-image: url('" $bkgURL "');"}}
+{{ end }}
 {{ end }}
 
 <section class="hero bkg-image" style="{{ safeCSS $bkg }}" id="hero">
