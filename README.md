@@ -16,13 +16,20 @@ Some of the basic features of Piercer are:
 * Hamburger menu without JavaScript.
 * Great SEO by default.
 * Mobile-first philosophy.
-* Optional support for PostCSS.
+* PostCSS can be used if desired.
 * Fast.
 
-Some of the things that are not planned to add are:
-* Dropdown menus.
+Some of the things that are not planned to add for the moment are:
+
+* Dropdown menus or nested menus.
+
+Some of the things I would like to add or improve in the future:
+
+* Accessibility.
+* List pages.
 
 ## Installation
+
 To install Piercer run the following commands inside your Hugo site:
 
 ```bash
@@ -199,7 +206,7 @@ logo = ""        # Relative URL for your logo
 
 ```toml
 [params.date]
-    format = ""
+    format = "January 2, 2006"
 ```
 
 ### Social networks
@@ -274,6 +281,7 @@ A simple description.
 As you can see, you can add a background image with the ```images``` param to the hero of your Home page. Which will also display the content of your file. And the CTA if you have specified so. [Here is an example](https://github.com/danielkvist/hugo-piercer-theme/blob/master/exampleSite/content/_index.md).
 
 ## Home sections
+
 To add sections to your Home page use the ```section``` archetype.
 
 ```md
