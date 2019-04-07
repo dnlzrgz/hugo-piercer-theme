@@ -3,11 +3,11 @@
     <!-- Social Links -->
     {{ if $.Site.Params.social }}
     {{ partial "social.html" . }}
+    <hr>
     {{ end }}
 
     <!-- Contact Links -->
     {{ if $.Site.Params.contact.show }}
-    <hr>
     {{ partial "contact-info.html" . }}
     <hr>
     {{ end }}
