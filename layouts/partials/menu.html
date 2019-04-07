@@ -2,9 +2,9 @@
     <details class="menu__toggle">
         <summary class="menu__toggle__title">Menu</summary>
 
-        <div class="menu__items">
+        <div class="menu__items" role="menu">
             {{ range $.Site.Menus.main }}
-            <a href="{{ .URL }}" class="menu__items__item" alt="{{ .Name }}">
+            <a href="{{ .URL }}" class="menu__items__item" alt="{{ .Name }}" role="menuitem">
                 {{ .Name }}
             </a>
             {{ end }}

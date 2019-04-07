@@ -4,7 +4,8 @@
 
     {{ range $k, $v := $links }}
     {{ if $v }}
-    <a href="{{ $v }}" class="social-links__link" alt="{{ $k }}" target="_blank" aria-label="{{ $v }}" rel="noopener">
+    <a href="{{ $v }}" class="social-links__link" alt="{{ $k }}" target="_blank" aria-label="{{ $v }}"
+        rel="noopener noreferrer">
         <span class="social-links__link__icon">
             <i class="fab fa-{{ $k }}"></i>
         </span>
