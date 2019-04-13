@@ -33,6 +33,8 @@
     {{ partial "scripts.html" . }}
 
     <!-- Font Awesome -->
+    {{ if not $.Site.Params.fa.disable }}
     {{ partial "fontawesome.html" . }}
+    {{ end }}
 
 </footer>
