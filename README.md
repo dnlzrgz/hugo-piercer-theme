@@ -228,6 +228,7 @@ logo = ""        # Relative URL for your logo
     tumblr = ""
     flickr = ""
     "500px" = ""
+    rss = ""
 ```
 
 > icons for social networks depend on Font Awesome.

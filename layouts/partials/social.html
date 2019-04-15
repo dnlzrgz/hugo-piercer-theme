@@ -7,7 +7,11 @@
     <a href="{{ $v }}" class="social-links__link" alt="{{ $k }}" target="_blank" aria-label="{{ $v }}"
         rel="noopener noreferrer">
         <span class="social-links__link__icon">
+            {{ if eq $k "rss" }}
+            <i class="fas fa-{{ $k }}"></i>
+            {{ else }}
             <i class="fab fa-{{ $k }}"></i>
+            {{ end }}
         </span>
     </a>
     {{ end }}

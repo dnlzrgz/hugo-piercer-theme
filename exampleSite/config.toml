@@ -116,6 +116,7 @@ themesDir = "../.."
     tumblr = ""
     flickr = ""
     "500px" = ""
+    rss = "#"
 
 [params.copy]
     message = ""
