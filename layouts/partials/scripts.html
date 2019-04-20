@@ -1,5 +1,6 @@
-{{ $header := resources.Get "js/header.js" }}
-{{ $bundle := slice $header | resources.Concat "js/bundle.js" }}
-{{ $js := $bundle | resources.Minify | resources.Fingerprint }}
+{{ $main := resources.Get "js/main.js" }}
+{{ $js := slice $main | resources.Concat "js/bundle.js" | resources.Minify }}
+{{ $sw := resources.Get "/sw.js" | resources.Minify }}
 
+<script defer src="{{ $sw.Permalink }}"></script>
 <script defer src="{{ $js.Permalink }}"></script>

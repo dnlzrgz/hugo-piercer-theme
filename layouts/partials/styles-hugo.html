@@ -7,6 +7,6 @@
 {{ $medias := resources.Get "css/media-queries.css" }}
 {{ $bundle := slice $reset $base $common $style $single $list $medias | resources.Concat "css/bundle.css" }}
 
-{{ $css := $bundle | resources.Minify | resources.Fingerprint "sha512" }}
+{{ $css := $bundle | resources.Minify }}
 
 <link rel="stylesheet" href="{{ $css.Permalink }}">

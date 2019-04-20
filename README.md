@@ -17,6 +17,7 @@ Some of the basic features of Piercer are:
 * Great SEO by default.
 * Mobile-first philosophy.
 * PostCSS can be used if desired.
+* Service Workers for caching resources.
 * Fast.
 
 Some of the things that are not planned to add for the moment are:
