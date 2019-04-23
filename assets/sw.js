@@ -2,7 +2,7 @@ let cacheVersion = 'v1';
 let urlsToCache = [
     '/images/',
     '/css/bundle.min.css',
-    '/js/main.min.js',
+    '/js/bundle.min.js',
 ];
 
 self.addEventListener('install', (e) => {
