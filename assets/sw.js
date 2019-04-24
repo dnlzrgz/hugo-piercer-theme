@@ -1,6 +1,5 @@
 let cacheVersion = 'v1';
 let urlsToCache = [
-    '/images/',
     '/css/bundle.min.css',
     '/js/bundle.min.js',
 ];
