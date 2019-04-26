@@ -69,7 +69,7 @@ themesDir = "../.."
 [params.cta]
     show = true
     message = "Learn more!"
-    link = "#"
+    link = "https://github.com/danielkvist/hugo-piercer-theme#readme"
 
 [params.fa]
     disable = false
