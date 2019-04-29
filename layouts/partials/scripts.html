@@ -2,5 +2,13 @@
 {{ $js := slice $main | resources.Concat "js/bundle.js" | resources.Minify }}
 {{ $sw := resources.Get "/sw.js" | resources.Minify }}
 
+
+<script>
+    let activeSW = false;
+    {{ if $.Site.Params.serviceWorker.enable }}
+        activeSW = true;
+    {{ end }}
+</script>
+
 <script defer src="{{ $sw.Permalink }}"></script>
 <script defer src="{{ $js.Permalink }}"></script>

@@ -149,6 +149,13 @@ logo = ""        # Relative URL for your logo
     font = ""   # Name of the Google Font you want to use
 ```
 
+### Service Workers
+
+```toml
+[params.serviceWorker]
+    enable = true   # enables or disables service worker for caching resources
+```
+
 ### Header
 
 ```toml

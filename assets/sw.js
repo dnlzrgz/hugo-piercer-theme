@@ -1,4 +1,4 @@
-let cacheVersion = 'v1';
+let cacheVersion = 'v1.1';
 let urlsToCache = [
     '/css/bundle.min.css',
     '/js/bundle.min.js',

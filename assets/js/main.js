@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
 });
 
 // Service Worker
-if ('serviceWorker' in navigator) {
+if ('serviceWorker' in navigator && activeSW) {
     navigator.serviceWorker.register('/sw.min.js', { scope: '/' }).then((registration) => {
         console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, (err) => {

@@ -63,6 +63,9 @@ themesDir = "../.."
 [params.googlefonts]
     font = ""
 
+[params.serviceWorker]
+    enable = true
+
 [params.header]
     show = true
 
