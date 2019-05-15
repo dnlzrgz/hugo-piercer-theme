@@ -43,7 +43,6 @@
 
 .menu__toggle {
     cursor: pointer;
-    outline: none;
 }
 
 .menu__toggle[open=""] {
