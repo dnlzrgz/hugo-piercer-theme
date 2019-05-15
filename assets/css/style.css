@@ -41,6 +41,11 @@
     padding-bottom: 1.25rem;
 }
 
+.menu__toggle {
+    cursor: pointer;
+    outline: none;
+}
+
 .menu__toggle[open=""] {
     color: var(--pink);
 }
