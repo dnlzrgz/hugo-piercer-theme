@@ -265,7 +265,7 @@ logo = ""        # Relative URL for your logo
 
 ### Custom CSS
 
-Thanks to the contributions of [#benfreke](https://github.com/benfreke) now you can easily add your own CSS styles.
+Thanks to the contributions of [@benfreke](https://github.com/benfreke) now you can easily add your own CSS styles.
 
 To do this you have to create a folder called ```assets``` in the root of your project. Then, create another folder called ```css``` inside ```assets```. An finally a file called ```custom.css``` inside ```css``` with your styles.
 
