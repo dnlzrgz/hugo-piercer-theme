@@ -13,11 +13,12 @@ Piercer's default color palette is based on the Dracula theme. You can see more 
 Some of the basic features of Piercer are:
 
 * Highly customizable (color palette, font size, font family and more).
+* Support for custom CSS.
 * Hamburger menu without JavaScript.
 * Great SEO by default.
 * Mobile-first philosophy.
 * PostCSS can be used if desired.
-* Service Workers for caching resources.
+* Service Workers for optional caching resources.
 * Fast.
 
 Some of the things that are not planned to add for the moment are:
@@ -261,6 +262,18 @@ logo = ""        # Relative URL for your logo
 [params.notfound]
     message = ""
 ```
+
+### Custom CSS
+
+Thanks to the contributions of [#benfreke](https://github.com/benfreke) now you can easily add your own CSS styles.
+
+To do this you have to create a folder called ```assets``` in the root of your project. Then, create another folder called ```css``` inside ```assets```. An finally a file called ```custom.css``` inside ```css``` with your styles.
+
+```bash
+mkdir -p ./assets/css/
+```
+
+You can check out the [example site](https://github.com/danielkvist/hugo-piercer-theme/tree/master/exampleSite) if you have any doubts.
 
 ## Archetypes
 
