@@ -1,11 +1,9 @@
-{{ $version := "5.8.1" }}
-{{ $integrity := "sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" }}
+{{ $kit := "" }}
 
-{{ if and $.Site.Params.fa.version $.Site.Params.fa.integrity }}
-{{ $version = $.Site.Params.fa.version }}
-{{ $integrity = $.Site.Params.fa.integrity }}
+{{ if and $.Site.Params.fa.kit}}
+{{ $kit = $.Site.Params.fa.kit }}
 {{ end }}
 
-{{ $src := printf "%s%s%s" "https://use.fontawesome.com/releases/v" $version "/js/all.js" }}
+{{ $src := printf "%s" $kit}}
 
-<script defer src="{{ $src }}" integrity="{{ $integrity }}" crossorigin="anonymous"></script>
+<script defer src="{{ $src }}" crossorigin="anonymous"></script>

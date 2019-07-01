@@ -178,8 +178,7 @@ logo = ""        # Relative URL for your logo
 ```toml
 [params.fa]
     disable = false # Disables or enables Font Awesome (by default is enabled)
-    version = ""    # Font Awesome version
-    integrity = ""  # Font Awesome integrity for the Font Awesome script
+    kit = ""  # Your Font Awesome kit's code
 ```
 
 ### Contact form

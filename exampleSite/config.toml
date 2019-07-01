@@ -76,8 +76,7 @@ themesDir = "../.."
 
 [params.fa]
     disable = false
-    version = "5.8.1"
-    integrity = "sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ"
+    kit = ""
 
 [params.form]
     show = true
