@@ -18,7 +18,7 @@
 {{ end }}
 
 
-<section class="section bkg-image" id="{{ .Title }}" style="{{ safeCSS $bkg }} {{ safeCSS $bc }}">
+<section class="section bkg-image" id="{{ .Title | anchorize }}" style="{{ safeCSS $bkg }} {{ safeCSS $bc }}">
     <h1 class="section__title">{{ .Title }}</h1>
     {{ .Content }}
 </section>
