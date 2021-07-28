@@ -4,6 +4,12 @@ Piercer is a very customizable, fast and simple Hugo theme designed under the mo
 
 ![Hugo Piercer theme screenshot](https://github.com/danielkvist/hugo-piercer-theme/blob/master/images/screenshot.png)
 
+## Archived
+
+I have decided to archive the project as I have been and am unable to give it the necessary support. Over time I have had to move on to working with other technologies and on other projects and have never had enough time to re-familiarise myself with the code and continue working on the project.
+
+Many thanks to all the people who have installed Piercer and who have sent PRs.
+
 ## Dracula
 
 Piercer's default color palette is based on the Dracula theme. You can see more of it [here](https://draculatheme.com/).
@@ -12,23 +18,23 @@ Piercer's default color palette is based on the Dracula theme. You can see more 
 
 Some of the basic features of Piercer are:
 
-* Highly customizable (color palette, font size, font family and more).
-* Support for custom CSS.
-* Hamburger menu without JavaScript.
-* Great SEO by default.
-* Mobile-first philosophy.
-* PostCSS can be used if desired.
-* Service Workers for optional caching resources.
-* Fast.
+- Highly customizable (color palette, font size, font family and more).
+- Support for custom CSS.
+- Hamburger menu without JavaScript.
+- Great SEO by default.
+- Mobile-first philosophy.
+- PostCSS can be used if desired.
+- Service Workers for optional caching resources.
+- Fast.
 
 Some of the things that are not planned to add for the moment are:
 
-* Dropdown menus or nested menus.
+- Dropdown menus or nested menus.
 
 Some of the things I would like to add or improve in the future:
 
-* Accessibility.
-* List pages.
+- Accessibility.
+- List pages.
 
 ## Installation
 
@@ -46,7 +52,7 @@ cd themes
 git submodule add https://github.com/danielkvist/hugo-piercer-theme.git piercer
 ```
 
-Then, add on your ```config.toml``` file:
+Then, add on your `config.toml` file:
 
 ```toml
 theme = "piercer"
@@ -113,7 +119,7 @@ logo = ""        # Relative URL for your logo
     postcss = true
 ```
 
-> If you want to use PostCSS you have to install the ```postcss-cli``` package with npm in your project first. You can find more information [here](https://gohugo.io/hugo-pipes/postcss/).
+> If you want to use PostCSS you have to install the `postcss-cli` package with npm in your project first. You can find more information [here](https://gohugo.io/hugo-pipes/postcss/).
 
 ### Color palette and font sizes
 
@@ -266,7 +272,7 @@ logo = ""        # Relative URL for your logo
 
 Thanks to the contributions of [@benfreke](https://github.com/benfreke) now you can easily add your own CSS styles.
 
-To do this you have to create a folder called ```assets``` in the root of your project. Then, create another folder called ```css``` inside ```assets```. An finally a file called ```custom.css``` inside ```css``` with your styles.
+To do this you have to create a folder called `assets` in the root of your project. Then, create another folder called `css` inside `assets`. An finally a file called `custom.css` inside `css` with your styles.
 
 ```bash
 mkdir -p ./assets/css/
@@ -278,9 +284,9 @@ You can check out the [example site](https://github.com/danielkvist/hugo-piercer
 
 Piercer includes three archetypes:
 
-* The ```default``` archetype for single pages which you can see [here](https://github.com/danielkvist/hugo-piercer-theme/blob/master/archetypes/default.md).
-* The ```post``` archetype for posts which you can see [here](https://github.com/danielkvist/hugo-piercer-theme/blob/master/archetypes/post.md).
-* The ```section``` archetype for the home page sections which you can see [here](https://github.com/danielkvist/hugo-piercer-theme/blob/master/archetypes/section.md).
+- The `default` archetype for single pages which you can see [here](https://github.com/danielkvist/hugo-piercer-theme/blob/master/archetypes/default.md).
+- The `post` archetype for posts which you can see [here](https://github.com/danielkvist/hugo-piercer-theme/blob/master/archetypes/post.md).
+- The `section` archetype for the home page sections which you can see [here](https://github.com/danielkvist/hugo-piercer-theme/blob/master/archetypes/section.md).
 
 ## Home
 
@@ -297,14 +303,15 @@ weight: 1
 ---
 
 # Your title
+
 A simple description.
 ```
 
-As you can see, you can add a background image with the ```images``` param to the hero of your Home page. Which will also display the content of your file. And the CTA if you have specified so. [Here is an example](https://github.com/danielkvist/hugo-piercer-theme/blob/master/exampleSite/content/_index.md).
+As you can see, you can add a background image with the `images` param to the hero of your Home page. Which will also display the content of your file. And the CTA if you have specified so. [Here is an example](https://github.com/danielkvist/hugo-piercer-theme/blob/master/exampleSite/content/_index.md).
 
 ## Home sections
 
-To add sections to your Home page use the ```section``` archetype.
+To add sections to your Home page use the `section` archetype.
 
 ```md
 ---
